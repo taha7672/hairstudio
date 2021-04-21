@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2-dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylevc.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<title>Baber shop</title>
+</head>
+
+<body>
+	<section class="banner">
+		<img src="img/logo.png" class="logo">
+		<div class="banner-text">
+			<h1>hair studio</h1>
+			<p>Style your hair is style your life</p>
+			<div class="banner-btn">
+				<a href="#"><span></span>Find Out</a>
+				<a href="#"><span></span>Read More</a>
+			</div>
+			<div class="sidebarmenu">
+
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="#">Home</a>
+					<a href="#">Team</a>
+					<a href="#">Services</a>
+					<a href="#">Clients</a>
+					<a href="#">About</a>
+					<a href="#">Contact Us</a>
+				</div>
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+
+				<script>
+					function openNav() {
+						document.getElementById("mySidenav").style.display = "block";
+					}
+
+					function closeNav() {
+						document.getElementById("mySidenav").style.display = "none";
+					}
+				</script>
+
+
+
+				<!-- Use any element to open the sidenav -->
+				<span onclick="openNav()"> </span>
+
+				<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+				<div id="main">
+
+				</div>
+
+			</div>
+
+	</section>
+	<!---features--->
+	<section id="feature">
+		<div class="title-text">
+			<p>Features</p>
+			<h1>Why choose us</h1>
+		</div>
+		<div class="feature-box">
+			<div class="features">
+				<h1>Experienced stuff</h1>
+				<div class="features-desc">
+					<div class="features-icon">
+						<i class="fa fa-shield"></i>
+					</div>
+					<div class="features-text">
+						<p>The column-reverse value stacks the flex items vertically (but from bottom to top):</p>
+					</div>
+				</div>
+				<h1>Pre booking online</h1>
+				<div class="features-desc">
+					<div class="features-icon">
+						<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+					</div>
+					<div class="features-text">
+						<p>The column-reverse value stacks the flex items vertically (but from bottom to top):</p>
+					</div>
+				</div>
+				<h1>Afordable cost</h1>
+				<div class="features-desc">
+					<div class="features-icon">
+						<i class="fa fa-usd" aria-hidden="true"></i>
+					</div>
+					<div class="features-text">
+						<p>The column-reverse value stacks the flex items vertically (but from bottom to top):</p>
+					</div>
+				</div>
+			</div>
+			<div class="features-img">
+				<img src="img/barber-man.jpg">
+			</div>
+		</div>
+	</section>
+	<!---services--->
+	<section id="services">
+		<div class="title-text">
+			<p>Services</p>
+			<h1>We provide better</h1>
+		</div>
+		<div class="service-box">
+			<div class="single-service">
+				<img src="img/pic-1.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+				<h2>Hair styling</h2>
+				<hr>
+				<p>With supporting text below as a natural lead-in to additional content.</p>
+			</div>
+			</div>
+			<div class="single-service">
+				<img src="img/pic-2.jpg">
+				<div class="overlay"></div>
+					<div class="service-desc">
+				<h2>Beard Trim</h2>
+				<hr>
+				<p>With supporting text below as a natural lead-in to additional content.</p>
+			</div>
+			</div>
+			<div class="single-service">
+				<img src="img/pic-3.jpg">
+				<div class="overlay"></div>
+					<div class="service-desc">
+				<h2>Hair cut</h2>
+				<hr>
+				<p>With supporting text below as a natural lead-in to additional content.</p>
+			</div>
+			</div>
+			<div class="single-service">
+				<img src="img/pic-4.jpg">
+				<div class="overlay"></div>	
+					<div class="service-desc">
+				<h2>Dry shampoo</h2>
+				<hr>
+				<p>With supporting text below as a natural lead-in to additional content.</p>
+			</div>
+			</div>
+		</div>
+
+	</section>
+		<!---Testimoaials--->
+		<section id="testimonial">
+			<div class="title-text">
+				<p>Testimonials</p>
+				<h1>What Clients says</h1>
+			</div>
+			<div class="testimonial-row">
+				<div class="testimonial-col">
+					<div class="user">
+						<img src="img/img-1.jpg">
+						<div class="user-info">
+							<h4>Kin Norman<i class="fa fa-twitter" aria-hidden="true"></i></h4>
+							<small>@kennorman</small>
+						</div>
+					</div>
+					<p>A card is a flexible and extensible content container. 
+						It includes options for headers and footers, a wide variety of content,
+						 contextual background colors, and powerful display options</p>
+				</div>
+				<div class="testimonial-col">
+					<div class="user">
+						<img src="img/img-2.jpg">
+						<div class="user-info">
+							<h4>Ayli juns <i class="fa fa-twitter" aria-hidden="true"></i></h4>
+							<small>@aylijuns3</small>
+						</div>
+					</div>
+					<p>A card is a flexible and extensible content container. 
+						It includes options for headers and footers, a wide variety of content,
+						 contextual background colors.</p>
+				</div>
+				<div class="testimonial-col">
+					<div class="user">
+						<img src="img/img-3.jpg">
+						<div class="user-info">
+							<h4>Joy Buttler<i class="fa fa-twitter" aria-hidden="true"></i></h4>
+							<small>@buttlercrik</small>
+						</div>
+					</div>
+					<p>A card is a flexible and extensible content container. 
+						It includes options for headers and footers, a wide variety of content,
+						 contextual background colors, and powerful display options</p>
+				</div>
+			</div>
+
+		</section>
+
+				<!---Testimoaials--->
+				<section id="footer">
+					<img src="img/footer-img.png" class="footer-img">
+					<div class="title-text">
+						<p>contact</p>
+						<h1>Visit shop today</h1>
+					</div>
+					<div class="footer-row">
+						<div class="footer-left">
+							<h1>Opening hours</h1>
+							<p><i class="fa fa-clock-o" aria-hidden="true"></i>Mondat to Friday_10Am to 9Pm</p>
+							<p><i class="fa fa-clock-o" aria-hidden="true"></i>Saturday to Sunda_8Am to 10Pm</p>
+						</div>
+						
+						<div class="footer-right">
+							<h1> Get in touch</h1>
+							<p>30abc Gulbar Lahore<i class="fa fa-location-arrow" aria-hidden="true"></i></p>
+							<p>hairstudio@gmail.com<i class="fa fa-envelope" aria-hidden="true"></i></p>  
+							<p>+92300000678<i class="fa fa-phone" aria-hidden="true"></i></p>
+						</div>
+					</div>
+                <div class="social-links">
+					<i class="fa fa-facebook" ></i>
+					<i class="fa fa-instagram" ></i>
+					<i class="fa fa-twitter" ></i>
+					<i class="fa fa-youtube-play" ></i>
+					<p>copyrights Taha 2020-2021</p>
+
+				</div>
+
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Optional JavaScript; choose one of the two! -->
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2-dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+		crossorigin="anonymous"></script>
+
+
+	<!-- Option 2: Separate Popper and Bootstrap JS -->
+	<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

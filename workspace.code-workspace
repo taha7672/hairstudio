@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Bootstrap website\\img"
+		},
+		{
+			"path": "..\\..\\Bootstrap website\\bootstrap-5.0.0-beta2-dist"
+		},
+		{
+			"path": "bootstrap-sidebar-03"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bootstrap-5.0.0-beta2-dist"
+	}
+}
